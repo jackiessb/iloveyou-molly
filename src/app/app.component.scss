@@ -1,0 +1,42 @@
+.title {
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.extra-bold {
+    font-weight: 700;
+}
+
+.extra-large-font {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.message-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.two-things {
+    align-items: center;
+    padding-inline: 18px;
+}
+
+.happy-birthday {
+    padding-inline: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.slow-show {
+    animation: fadeIn 1s;
+
+    @keyframes fadeIn {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+    }
+}
